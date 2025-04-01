@@ -9,8 +9,8 @@
 
     <WebView
         android:id="@+id/wV"
-        android:layout_width="295dp"
-        android:layout_height="560dp"
+        android:layout_width="305dp"
+        android:layout_height="492dp"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
 
