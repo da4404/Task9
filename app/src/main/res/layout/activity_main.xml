@@ -9,8 +9,8 @@
 
     <WebView
         android:id="@+id/wV"
-        android:layout_width="294dp"
-        android:layout_height="538dp"
+        android:layout_width="295dp"
+        android:layout_height="560dp"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
 
@@ -22,25 +22,31 @@
 
     <EditText
         android:id="@+id/edit_text__"
-        android:layout_width="216dp"
+        android:layout_width="200dp"
         android:layout_height="58dp"
         android:layout_marginStart="36dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="50dp"
         android:ems="10"
         android:inputType="text"
         android:text="enter"
+        app:layout_constraintBottom_toTopOf="@+id/wV"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/button_"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="98dp"
+        android:layout_height="51dp"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="48dp"
-        android:text="go"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
         android:onClick="go1"
 
+        android:text="go"
+        app:layout_constraintBottom_toTopOf="@+id/wV"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/edit_text__"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>
